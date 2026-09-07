@@ -1,0 +1,115 @@
+{% extends "placement/base.html" %}
+
+{% block title %}zeiin — Start Test{% endblock %}
+
+{% block content %}
+
+<section class="form-section">
+
+    <div class="form-card">
+
+        <p class="section-label">
+            BEFORE YOU START
+        </p>
+
+        <h1>
+            Your information
+        </h1>
+
+        <p class="form-description">
+            Please enter your information before starting the test.
+        </p>
+
+        <form
+            method="post"
+            class="participant-form"
+        >
+            {% csrf_token %}
+
+            <div class="form-field">
+                {{ form.full_name.label_tag }}
+                {{ form.full_name }}
+
+                {% if form.full_name.errors %}
+                    <div class="form-error">
+                        {{ form.full_name.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="form-field">
+                {{ form.phone.label_tag }}
+                {{ form.phone }}
+
+                {% if form.phone.errors %}
+                    <div class="form-error">
+                        {{ form.phone.errors }}
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="form-field">
+
+                <label>
+                    Date of birth
+                </label>
+
+                <div class="birth-date-fields">
+
+                    <div>
+                        {{ form.birth_day.label_tag }}
+                        {{ form.birth_day }}
+                    </div>
+
+                    <div>
+                        {{ form.birth_month.label_tag }}
+                        {{ form.birth_month }}
+                    </div>
+
+                    <div>
+                        {{ form.birth_year.label_tag }}
+                        {{ form.birth_year }}
+                    </div>
+
+                </div>
+
+                {% if form.birth_day.errors %}
+                    <div class="form-error">
+                        {{ form.birth_day.errors }}
+                    </div>
+                {% endif %}
+
+                {% if form.birth_month.errors %}
+                    <div class="form-error">
+                        {{ form.birth_month.errors }}
+                    </div>
+                {% endif %}
+
+                {% if form.birth_year.errors %}
+                    <div class="form-error">
+                        {{ form.birth_year.errors }}
+                    </div>
+                {% endif %}
+
+                {% if form.non_field_errors %}
+                    <div class="form-error">
+                        {{ form.non_field_errors }}
+                    </div>
+                {% endif %}
+
+            </div>
+
+            <button
+                type="submit"
+                class="button button--full"
+            >
+                Start test
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+{% endblock %}

@@ -1,0 +1,187 @@
+{% extends "placement/base.html" %}
+
+{% block title %}
+    zeiin — Question {{ question_number }}
+{% endblock %}
+
+{% block content %}
+
+<section class="test-layout">
+
+    {% if show_finish_warning %}
+
+        <div class="warning">
+
+            <p>
+                You have unanswered questions:
+                <strong>
+                    {{ unanswered_questions|join:", " }}
+                </strong>
+            </p>
+
+            <p>
+                Are you sure you want to finish the test?
+            </p>
+
+            <div class="warning__actions">
+
+                <form method="post">
+                    {% csrf_token %}
+
+                    <input
+                        type="hidden"
+                        name="confirm_finish"
+                        value="1"
+                    >
+
+                    <button
+                        type="submit"
+                        name="action"
+                        value="finish"
+                        class="finish-button"
+                    >
+                        Finish anyway
+                    </button>
+                </form>
+
+                <a
+                    href="{% url 'question' attempt_id=attempt.id question_number=question_number %}"
+                    class="button button--secondary"
+                >
+                    Continue test
+                </a>
+
+            </div>
+
+        </div>
+
+    {% endif %}
+
+
+    <div class="question-header">
+
+        <span>
+            Question {{ question_number }}
+        </span>
+
+        <span class="question-counter">
+            {{ total_questions }} questions
+        </span>
+
+    </div>
+
+
+    {% if question.reading %}
+
+        <article class="reading">
+
+            <div class="reading__label">
+                READING
+            </div>
+
+            <h2>
+                {{ question.reading.title }}
+            </h2>
+
+            <div class="reading__text">
+                {{ question.reading.text|linebreaks }}
+            </div>
+
+        </article>
+
+    {% endif %}
+
+
+    <div class="question-card">
+
+        <h1 class="question-text">
+            {{ question.text }}
+        </h1>
+
+        <form
+            method="post"
+            class="test-form"
+        >
+
+            {% csrf_token %}
+
+            <div class="answers">
+
+                {% for answer in question.answers.all %}
+
+                    <label class="answer">
+
+                        <input
+                            type="radio"
+                            name="answer"
+                            value="{{ answer.id }}"
+                            {% if user_answer and user_answer.answer_id == answer.id %}
+                                checked
+                            {% endif %}
+                        >
+
+                        <span class="answer__indicator"></span>
+
+                        <span class="answer__text">
+                            {{ answer.text }}
+                        </span>
+
+                    </label>
+
+                {% endfor %}
+
+            </div>
+
+
+            <div class="test-actions">
+
+                {% if previous_question_number %}
+
+                    <button
+                        type="submit"
+                        name="action"
+                        value="previous"
+                        class="button button--secondary"
+                    >
+                        Previous
+                    </button>
+
+                {% endif %}
+
+
+                {% if next_question_number %}
+
+                    <button
+                        type="submit"
+                        name="action"
+                        value="next"
+                        class="button test-actions__next"
+                    >
+                        Next
+                    </button>
+
+                {% endif %}
+
+            </div>
+
+
+            <div class="finish-action">
+
+                <button
+                    type="submit"
+                    name="action"
+                    value="finish"
+                    class="finish-button"
+                >
+                    Finish
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+{% endblock %}

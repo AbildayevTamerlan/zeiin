@@ -1,0 +1,38 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>{% block title %}zeiin{% endblock %}</title>
+
+    <link
+        rel="stylesheet"
+        href="{% static 'placement/css/style.css' %}"
+    >
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+        <a href="{% url 'home' %}" class="logo">
+            zeiin
+        </a>
+    </div>
+</header>
+
+<main class="main">
+    <div class="container">
+        {% block content %}
+        {% endblock %}
+    </div>
+</main>
+
+</body>
+</html>

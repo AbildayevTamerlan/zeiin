@@ -1,0 +1,35 @@
+{% extends "placement/base.html" %}
+
+{% block title %}zeiin — Result{% endblock %}
+
+{% block content %}
+
+<section class="result-section">
+
+    <div class="result-card">
+
+        <p class="section-label">
+            TEST COMPLETE
+        </p>
+
+        <h1>
+            Your result
+        </h1>
+
+        <div class="result-score">
+            {{ attempt.score }}/{{ attempt.total_questions }}
+        </div>
+
+        <div class="result-level">
+            {{ attempt.level }}
+        </div>
+
+        <p class="result-description">
+            This is your estimated English level based on your test result.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}

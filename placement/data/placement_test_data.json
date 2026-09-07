@@ -1,0 +1,1131 @@
+{
+  "test": {
+    "title": "English Placement Test"
+  },
+  "sections": [
+    {
+      "title": "Grammar & Vocabulary (A1-A2)",
+      "order": 1,
+      "reading": null,
+      "questions": [
+        {
+          "order": 1,
+          "text": "She ___ a teacher.",
+          "answers": [
+            [
+              "am",
+              false
+            ],
+            [
+              "is",
+              true
+            ],
+            [
+              "are",
+              false
+            ],
+            [
+              "be",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "text": "___ you from Kazakhstan?",
+          "answers": [
+            [
+              "Am",
+              false
+            ],
+            [
+              "Does",
+              false
+            ],
+            [
+              "Is",
+              false
+            ],
+            [
+              "Are",
+              true
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "text": "I ___ coffee every morning.",
+          "answers": [
+            [
+              "drinks",
+              false
+            ],
+            [
+              "drink",
+              true
+            ],
+            [
+              "is drinking",
+              false
+            ],
+            [
+              "drank",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 4,
+          "text": "There ___ two books on the desk.",
+          "answers": [
+            [
+              "is",
+              false
+            ],
+            [
+              "am",
+              false
+            ],
+            [
+              "are",
+              true
+            ],
+            [
+              "be",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 5,
+          "text": "He ___ to school yesterday.",
+          "answers": [
+            [
+              "go",
+              false
+            ],
+            [
+              "goes",
+              false
+            ],
+            [
+              "went",
+              true
+            ],
+            [
+              "going",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 6,
+          "text": "I cannot find my keys. I ___ them everywhere.",
+          "answers": [
+            [
+              "look",
+              false
+            ],
+            [
+              "looked",
+              false
+            ],
+            [
+              "am looking",
+              true
+            ],
+            [
+              "looks",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 7,
+          "text": "___ is your birthday?",
+          "answers": [
+            [
+              "What",
+              false
+            ],
+            [
+              "Where",
+              false
+            ],
+            [
+              "When",
+              true
+            ],
+            [
+              "Who",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 8,
+          "text": "She ___ like spicy food.",
+          "answers": [
+            [
+              "don't",
+              false
+            ],
+            [
+              "doesn't",
+              true
+            ],
+            [
+              "isn't",
+              false
+            ],
+            [
+              "aren't",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 9,
+          "text": "We ___ TV when the phone rang.",
+          "answers": [
+            [
+              "watch",
+              false
+            ],
+            [
+              "watched",
+              false
+            ],
+            [
+              "were watching",
+              true
+            ],
+            [
+              "are watching",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 10,
+          "text": "This is ___ interesting book I have ever read.",
+          "answers": [
+            [
+              "a most",
+              false
+            ],
+            [
+              "more",
+              false
+            ],
+            [
+              "the most",
+              true
+            ],
+            [
+              "most",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 11,
+          "text": "They have lived here ___ ten years.",
+          "answers": [
+            [
+              "since",
+              false
+            ],
+            [
+              "for",
+              true
+            ],
+            [
+              "during",
+              false
+            ],
+            [
+              "while",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 12,
+          "text": "___ have you been to Paris?",
+          "answers": [
+            [
+              "How long",
+              true
+            ],
+            [
+              "How much",
+              false
+            ],
+            [
+              "How often",
+              false
+            ],
+            [
+              "How many",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 13,
+          "text": "She is ___ than her sister.",
+          "answers": [
+            [
+              "more tall",
+              false
+            ],
+            [
+              "tallest",
+              false
+            ],
+            [
+              "taller",
+              true
+            ],
+            [
+              "the tallest",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 14,
+          "text": "I ___ finish this report by tomorrow.",
+          "answers": [
+            [
+              "have to",
+              true
+            ],
+            [
+              "must to",
+              false
+            ],
+            [
+              "should to",
+              false
+            ],
+            [
+              "ought",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 15,
+          "text": "___ you mind opening the window?",
+          "answers": [
+            [
+              "Would",
+              true
+            ],
+            [
+              "Will",
+              false
+            ],
+            [
+              "Shall",
+              false
+            ],
+            [
+              "Do",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 16,
+          "text": "By the time he arrived, she ___ already left.",
+          "answers": [
+            [
+              "has",
+              false
+            ],
+            [
+              "had",
+              true
+            ],
+            [
+              "was",
+              false
+            ],
+            [
+              "have",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 17,
+          "text": "If it ___ tomorrow, we will cancel the trip.",
+          "answers": [
+            [
+              "rains",
+              true
+            ],
+            [
+              "will rain",
+              false
+            ],
+            [
+              "rained",
+              false
+            ],
+            [
+              "rain",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 18,
+          "text": "The report ___ submitted last Friday.",
+          "answers": [
+            [
+              "was",
+              true
+            ],
+            [
+              "is",
+              false
+            ],
+            [
+              "has been",
+              false
+            ],
+            [
+              "were",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 19,
+          "text": "She asked me where ___ from.",
+          "answers": [
+            [
+              "I come",
+              false
+            ],
+            [
+              "I came",
+              true
+            ],
+            [
+              "did I come",
+              false
+            ],
+            [
+              "I was coming",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 20,
+          "text": "I wish I ___ more time to study.",
+          "answers": [
+            [
+              "have",
+              false
+            ],
+            [
+              "had",
+              true
+            ],
+            [
+              "would have",
+              false
+            ],
+            [
+              "will have",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grammar & Vocabulary (B1-C1)",
+      "order": 2,
+      "reading": null,
+      "questions": [
+        {
+          "order": 1,
+          "text": "___ having studied hard, she failed the exam.",
+          "answers": [
+            [
+              "Despite",
+              true
+            ],
+            [
+              "Although",
+              false
+            ],
+            [
+              "Even",
+              false
+            ],
+            [
+              "However",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "text": "He denied ___ the money.",
+          "answers": [
+            [
+              "to steal",
+              false
+            ],
+            [
+              "stealing",
+              true
+            ],
+            [
+              "stolen",
+              false
+            ],
+            [
+              "steal",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "text": "The project ___ by the end of next month.",
+          "answers": [
+            [
+              "will complete",
+              false
+            ],
+            [
+              "will have been completed",
+              true
+            ],
+            [
+              "is completing",
+              false
+            ],
+            [
+              "completes",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 4,
+          "text": "It is high time we ___ a decision.",
+          "answers": [
+            [
+              "make",
+              false
+            ],
+            [
+              "made",
+              true
+            ],
+            [
+              "would make",
+              false
+            ],
+            [
+              "have made",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 5,
+          "text": "___ I known the answer, I would have told you.",
+          "answers": [
+            [
+              "If",
+              false
+            ],
+            [
+              "Unless",
+              false
+            ],
+            [
+              "Had",
+              true
+            ],
+            [
+              "Should",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 6,
+          "text": "She barely passed, ___ she?",
+          "answers": [
+            [
+              "doesn't",
+              false
+            ],
+            [
+              "didn't",
+              false
+            ],
+            [
+              "did",
+              true
+            ],
+            [
+              "hadn't",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 7,
+          "text": "The new policy has resulted ___ a significant drop.",
+          "answers": [
+            [
+              "in",
+              true
+            ],
+            [
+              "to",
+              false
+            ],
+            [
+              "at",
+              false
+            ],
+            [
+              "from",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 8,
+          "text": "He is said ___ a fortune in stocks.",
+          "answers": [
+            [
+              "to make",
+              false
+            ],
+            [
+              "to have made",
+              true
+            ],
+            [
+              "making",
+              false
+            ],
+            [
+              "that he made",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 9,
+          "text": "But ___ the traffic, we would have arrived on time.",
+          "answers": [
+            [
+              "for",
+              true
+            ],
+            [
+              "to",
+              false
+            ],
+            [
+              "of",
+              false
+            ],
+            [
+              "with",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 10,
+          "text": "She ___ sooner if she had known about the meeting.",
+          "answers": [
+            [
+              "will come",
+              false
+            ],
+            [
+              "came",
+              false
+            ],
+            [
+              "would have come",
+              true
+            ],
+            [
+              "would come",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 11,
+          "text": "The CEO, ___ speech was outstanding, resigned.",
+          "answers": [
+            [
+              "who",
+              false
+            ],
+            [
+              "whose",
+              true
+            ],
+            [
+              "whom",
+              false
+            ],
+            [
+              "which",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 12,
+          "text": "The report needs ___ before submission.",
+          "answers": [
+            [
+              "to proofread",
+              false
+            ],
+            [
+              "proofreading",
+              true
+            ],
+            [
+              "proofread",
+              false
+            ],
+            [
+              "being proofread",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 13,
+          "text": "___ all the evidence, the jury found him innocent.",
+          "answers": [
+            [
+              "Despite of",
+              false
+            ],
+            [
+              "In spite",
+              false
+            ],
+            [
+              "Notwithstanding",
+              true
+            ],
+            [
+              "Regardless",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 14,
+          "text": "She ___ the letter before I arrived.",
+          "answers": [
+            [
+              "has written",
+              false
+            ],
+            [
+              "wrote",
+              false
+            ],
+            [
+              "had written",
+              true
+            ],
+            [
+              "was writing",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 15,
+          "text": "Not only ___ late, but he also forgot his ID.",
+          "answers": [
+            [
+              "he arrived",
+              false
+            ],
+            [
+              "arrived he",
+              false
+            ],
+            [
+              "did he arrive",
+              true
+            ],
+            [
+              "he did arrive",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 16,
+          "text": "The data ___ to be inaccurate by the committee.",
+          "answers": [
+            [
+              "proved",
+              false
+            ],
+            [
+              "were proved",
+              true
+            ],
+            [
+              "have proved",
+              false
+            ],
+            [
+              "proving",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 17,
+          "text": "I'd rather you ___ smoke in here.",
+          "answers": [
+            [
+              "don't",
+              false
+            ],
+            [
+              "won't",
+              false
+            ],
+            [
+              "didn't",
+              true
+            ],
+            [
+              "not",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 18,
+          "text": "They ___ three meetings before reaching an agreement.",
+          "answers": [
+            [
+              "have had",
+              false
+            ],
+            [
+              "had had",
+              true
+            ],
+            [
+              "had",
+              false
+            ],
+            [
+              "has had",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 19,
+          "text": "___ the circumstances, the decision was justified.",
+          "answers": [
+            [
+              "Given",
+              true
+            ],
+            [
+              "Giving",
+              false
+            ],
+            [
+              "Having given",
+              false
+            ],
+            [
+              "To give",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 20,
+          "text": "The manager insisted that the report ___ by Monday.",
+          "answers": [
+            [
+              "is submitted",
+              false
+            ],
+            [
+              "be submitted",
+              true
+            ],
+            [
+              "was submitted",
+              false
+            ],
+            [
+              "submits",
+              false
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Reading Comprehension (B2-C1)",
+      "order": 3,
+      "reading": {
+        "title": "The Four-Day Workweek: From Feasibility to Implementation",
+        "text": "The concept of a four-day working week has gained considerable traction in recent years, with several high-profile pilot programmes reporting remarkable results. Proponents argue that reducing working hours not only enhances employee wellbeing but also, counterintuitively, boosts productivity. A pioneering Icelandic trial conducted between 2015 and 2019 across a range of public sector workplaces found that output either remained stable or improved in the overwhelming majority of participating organisations. Workers reported lower stress levels, better work-life balance, and a marked reduction in burnout.\n\nCritics, however, contend that such findings are context-dependent and cannot be universally applied. Sectors characterised by continuous service delivery such as healthcare, emergency services, and logistics face obvious structural barriers to the adoption of a compressed week. Furthermore, economists warn that a blanket reduction in working hours, unless offset by corresponding productivity gains, risks undermining competitiveness in an already volatile global market.\n\nWhat is perhaps most striking is that the debate has shifted considerably. Rather than questioning whether a shorter week is desirable in principle, the conversation has moved to how it might be most effectively implemented across diverse industrial contexts."
+      },
+      "questions": [
+        {
+          "order": 1,
+          "text": "According to the passage, the Icelandic trial showed that productivity ___.",
+          "answers": [
+            [
+              "declined in most workplaces",
+              false
+            ],
+            [
+              "remained stable or improved",
+              true
+            ],
+            [
+              "increased dramatically in all sectors",
+              false
+            ],
+            [
+              "was not measured accurately",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 2,
+          "text": "The word \"traction\" in paragraph 1 most closely means ___.",
+          "answers": [
+            [
+              "criticism",
+              false
+            ],
+            [
+              "momentum and acceptance",
+              true
+            ],
+            [
+              "financial support",
+              false
+            ],
+            [
+              "public controversy",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 3,
+          "text": "Which sector is NOT mentioned as facing barriers to a four-day week?",
+          "answers": [
+            [
+              "Healthcare",
+              false
+            ],
+            [
+              "Emergency services",
+              false
+            ],
+            [
+              "Logistics",
+              false
+            ],
+            [
+              "Technology",
+              true
+            ]
+          ]
+        },
+        {
+          "order": 4,
+          "text": "What do economists warn about reducing working hours?",
+          "answers": [
+            [
+              "It will cause unemployment",
+              false
+            ],
+            [
+              "It may harm global competitiveness",
+              true
+            ],
+            [
+              "It is impossible to implement",
+              false
+            ],
+            [
+              "It increases burnout",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 5,
+          "text": "The overall tone of the passage can best be described as ___.",
+          "answers": [
+            [
+              "strongly supportive",
+              false
+            ],
+            [
+              "neutral and analytical",
+              true
+            ],
+            [
+              "highly critical",
+              false
+            ],
+            [
+              "emotionally charged",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 6,
+          "text": "The phrase \"context-dependent\" implies that ___.",
+          "answers": [
+            [
+              "results are universal",
+              false
+            ],
+            [
+              "findings may vary by situation",
+              true
+            ],
+            [
+              "critics are always correct",
+              false
+            ],
+            [
+              "productivity cannot be measured",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 7,
+          "text": "What shift in the debate does the final paragraph describe?",
+          "answers": [
+            [
+              "From whether to how",
+              true
+            ],
+            [
+              "From how to when",
+              false
+            ],
+            [
+              "From support to opposition",
+              false
+            ],
+            [
+              "From research to legislation",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 8,
+          "text": "The word \"counterintuitively\" suggests the productivity boost was ___.",
+          "answers": [
+            [
+              "expected and predictable",
+              false
+            ],
+            [
+              "surprising and against assumption",
+              true
+            ],
+            [
+              "proven by statistics",
+              false
+            ],
+            [
+              "temporary and unreliable",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 9,
+          "text": "What was a key benefit reported by workers in the trial?",
+          "answers": [
+            [
+              "Higher salaries",
+              false
+            ],
+            [
+              "Shorter commutes",
+              false
+            ],
+            [
+              "Reduced stress and burnout",
+              true
+            ],
+            [
+              "More public holidays",
+              false
+            ]
+          ]
+        },
+        {
+          "order": 10,
+          "text": "The author's primary purpose is to ___.",
+          "answers": [
+            [
+              "advocate strongly for a four-day week",
+              false
+            ],
+            [
+              "present a balanced overview of the debate",
+              true
+            ],
+            [
+              "discourage further pilot programmes",
+              false
+            ],
+            [
+              "summarise one country policy",
+              false
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
