@@ -252,11 +252,11 @@
         },
         {
           "order": 12,
-          "text": "___ have you been to Paris?",
+          "text": "___ do you travel to Paris?",
           "answers": [
             [
               "How long",
-              true
+              false
             ],
             [
               "How much",
@@ -264,7 +264,7 @@
             ],
             [
               "How often",
-              false
+              true
             ],
             [
               "How many",
@@ -575,11 +575,11 @@
             ],
             [
               "didn't",
-              false
+              true
             ],
             [
               "did",
-              true
+              false
             ],
             [
               "hadn't",

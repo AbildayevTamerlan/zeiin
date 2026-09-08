@@ -97,7 +97,7 @@ class Attempt(models.Model):
     completed_at = models.DateTimeField(null=True, blank=True)
     total_questions = models.PositiveIntegerField(default=0)
     score = models.PositiveIntegerField(null=True, blank=True)
-    level = models.CharField(max_length=10, null=True, blank=True)
+    level = models.CharField(max_length=30, null=True, blank=True)
 
     def __str__(self):
         return f"{self.participant} - {self.test}"
