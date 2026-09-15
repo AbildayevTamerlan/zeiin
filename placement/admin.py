@@ -1,4 +1,6 @@
 from django.contrib import admin
+from import_export import resources
+from import_export.admin import ExportMixin
 
 from .models import (
     Answer,
@@ -47,8 +49,35 @@ class ParticipantAdmin(admin.ModelAdmin):
     list_display = ("full_name", "phone", "birth_date")
 
 
+class AttemptResource(resources.ModelResource):
+    full_name = resources.Field(
+        attribute="participant__full_name", column_name="Full name"
+    )
+    phone = resources.Field(attribute="participant__phone", column_name="Phone")
+    birth_date = resources.Field(
+        attribute="participant__birth_date", column_name="Birth date"
+    )
+    test = resources.Field(attribute="test__title", column_name="Test")
+
+    class Meta:
+        model = Attempt
+        fields = (
+            "id",
+            "full_name",
+            "phone",
+            "birth_date",
+            "test",
+            "score",
+            "level",
+            "started_at",
+            "completed_at",
+        )
+        export_order = fields
+
+
 @admin.register(Attempt)
-class AttemptAdmin(admin.ModelAdmin):
+class AttemptAdmin(ExportMixin, admin.ModelAdmin):
+    resource_class = AttemptResource
     list_display = (
         "participant",
         "test",
