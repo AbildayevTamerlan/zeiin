@@ -44,8 +44,34 @@ class AnswerAdmin(admin.ModelAdmin):
     list_filter = ("is_correct",)
 
 
+class ParticipantResource(resources.ModelResource):
+    full_name = resources.Field(
+        attribute="full_name",
+        column_name="Full name",
+    )
+    phone = resources.Field(
+        attribute="phone",
+        column_name="Phone",
+    )
+    birth_date = resources.Field(
+        attribute="birth_date",
+        column_name="Birth date",
+    )
+
+    class Meta:
+        model = Participant
+        fields = (
+            "id",
+            "full_name",
+            "phone",
+            "birth_date",
+        )
+        export_order = fields
+
+
 @admin.register(Participant)
-class ParticipantAdmin(admin.ModelAdmin):
+class ParticipantAdmin(ExportMixin, admin.ModelAdmin):
+    resource_class = ParticipantResource
     list_display = ("full_name", "phone", "birth_date")
 
 
@@ -89,7 +115,49 @@ class AttemptAdmin(ExportMixin, admin.ModelAdmin):
     list_filter = ("test", "level")
 
 
+class UserAnswerResource(resources.ModelResource):
+    full_name = resources.Field(
+        attribute="attempt__participant__full_name",
+        column_name="Full name",
+    )
+    phone = resources.Field(
+        attribute="attempt__participant__phone",
+        column_name="Phone",
+    )
+    test = resources.Field(
+        attribute="attempt__test__title",
+        column_name="Test",
+    )
+    question = resources.Field(
+        attribute="question__text",
+        column_name="Question",
+    )
+    answer = resources.Field(
+        attribute="answer__text",
+        column_name="Answer",
+    )
+
+    class Meta:
+        model = UserAnswer
+        fields = (
+            "id",
+            "full_name",
+            "phone",
+            "test",
+            "question",
+            "answer",
+            "is_correct",
+        )
+        export_order = fields
+
+
 @admin.register(UserAnswer)
-class UserAnswerAdmin(admin.ModelAdmin):
-    list_display = ("attempt", "question", "answer", "is_correct")
+class UserAnswerAdmin(ExportMixin, admin.ModelAdmin):
+    resource_class = UserAnswerResource
+    list_display = (
+        "attempt",
+        "question",
+        "answer",
+        "is_correct",
+    )
     list_filter = ("is_correct",)
